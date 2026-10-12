@@ -1,6 +1,17 @@
 package uk.ac.westminster.products_api;
 
 public class Product {
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     private Long id;
     private String name;
